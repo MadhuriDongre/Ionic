@@ -22,10 +22,8 @@ INSERT/CREATE Script:
           OIDS = FALSE
       )
       TABLESPACE pg_default;
-
-      ALTER TABLE public.fooditems
-          OWNER to postgres;
-
+      
+      
 Run the application and search using below URLs:
   Get All Data: localhost:8080/foodItems/search/_search 
   Get Data using Id: localhost:8080/foodItems/id/{id} 
